@@ -8,11 +8,13 @@
 - [Preparation](#preparation)
 ```
 !pip install transformers
+!pip install torch==1.8.0+cu102 torchvision==0.9.0+cu102 torchaudio===0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+!pip install sklearn
 ```
 
 - [How to use](#how-to-use)
   - [model.pt](https://drive.google.com/file/d/1LUSy1yd9MztKPam9H6MLexAwPKqv2Qmb/view?usp=sharing)를 다운
-  - bert_en_pytorch_chatbot_tutorial.py 파일의 아래 드부분을 자신이 원하는 경로로 설정
+  - bert_en_pytorch_chatbot_tutorial.py 파일의 아래 코드부분을 자신이 원하는 경로로 설정
     ```
     corpus_name = 'cornell_movie_dialogs_corpus' 
     corpus = os.path.join('/home/dilab/tmp/', corpus_name)
