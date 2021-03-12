@@ -7,7 +7,11 @@
           tokenizer = BertTokenizer.from_pretrained('bert-large-uncased', do_lower_case=False)
           # bert_model = BertModel.from_pretrained('bert-large-uncased') # Add Encoder outputs
           ```
-
+    - 2. hidden_size
+          ```
+          hidden_size = 768
+          hidden_size = 1024
+          ```
 - [DataSet](#DataSet)\
 [Cornell_Movie-Dialogs_Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
 
